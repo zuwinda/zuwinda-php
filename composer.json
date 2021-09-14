@@ -1,0 +1,25 @@
+{
+    "name": "zuwinda/zuwinda-php",
+    "description": "Library php to communication APIs Zuwinda",
+    "type": "library",
+    "keywords": ["zuwinda", "api", "instances", "sms"],
+    "homepage": "https://github.com/zuwinda/zuwinda-php",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zuwinda\\": "src/Zuwinda"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rizal Hidayat",
+            "email": "rizalhidayat180499@gmail.com"
+        }
+    ]
+}
